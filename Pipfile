@@ -15,6 +15,7 @@ django-filter = "*"
 django-environ = "*"
 drf-yasg = "*"
 djangorestframework-jsonapi = {extras = ["django-filter"],version = "*"}
+drf-yasg-json-api = {editable = true,git = "https://github.com/neotrons/drf-yasg-json-api.git"}
 
 [requires]
 python_version = "3.6"
